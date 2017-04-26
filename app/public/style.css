@@ -1,0 +1,12 @@
+#questions{
+    border: solid 2px gray;
+    padding: 5%;
+}
+
+input{
+   max-width: 500px;
+}
+
+#submit{
+    max-width: 150px;
+}

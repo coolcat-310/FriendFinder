@@ -2,9 +2,170 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="Juan Navarrete">
+    <title>Survey</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="container">
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Questionnaire</h1>
+            <p>Answer to the best of your ability.</p>
+        </div>
+    </div>
+</div>
+<div class="container" id="questions">
+    <div class="col-md-10">
+        <div class="container">
+
+            <h2>Survey Questions</h2>
+            <h3><strong>Who are You?</strong></h3>
+            <h4>Name <b>(Required)</b></h4>
+            <input type="text" name="" id="name" class="form-control" required>
+
+            <h4>Link to Photo Image <b>(Required)</b></h4>
+            <input type="text" name="" id="photo" class="form-control" required>
+
+            <hr>
+
+            <h3><strong>Question 1</strong></h3>
+            <h4>You are always in the mood for an advantage.</h4>
+            <select data-placeholder="" class="chosen-select" id="q1">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h3><strong>Question 2</strong></h3>
+            <h4>You excel in multitasking.</h4>
+            <select data-placeholder="" class="chosen-select" id="q2">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+
+            <h3><strong>Question 3</strong></h3>
+            <h4>You excel in a stressful environment.</h4>
+            <select data-placeholder="" class="chosen-select" id="q3">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+
+            <h3><strong>Question 4</strong></h3>
+            <h4>You enjoy the outdoors.</h4>
+            <select data-placeholder="" class="chosen-select" id="q4">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+
+            <h3><strong>Question 5</strong></h3>
+            <h4>Generally you accept people from different backgrounds.</h4>
+            <select data-placeholder="" class="chosen-select" id="q5">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+
+            <h3><strong>Question 6</strong></h3>
+            <h4>You can relate to other people's emotions.</h4>
+            <select data-placeholder="" class="chosen-select" id="q6">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+
+            <h3><strong>Question 7</strong></h3>
+            <h4>You are person who holds honesty above all else.</h4>
+            <select data-placeholder="" class="chosen-select" id="q7">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h3><strong>Question 8</strong></h3>
+            <h4>You like dogs more than cats.</h4>
+            <select data-placeholder="" class="chosen-select" id="q8">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h3><strong>Question 9</strong></h3>
+            <h4>You are selfless.</h4>
+            <select data-placeholder="" class="chosen-select" id="q9">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h3><strong>Question 10</strong></h3>
+            <h4>You enjoy a challenging puzzle.</h4>
+            <select data-placeholder="" class="chosen-select" id="q10">
+                <option value=""></option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <br>
+            <br>
+
+            <!-- Submit Button -->
+            <a href="#">
+            <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
+                Submit</button>
+            </a>
+
+            <hr>
+            <footer class="footer">
+                <div class="container">
+                    <a href="/api/friends" >List of buddy</a>
+                </div>
+            </footer>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.js"  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="script.js"></script>
 
 </body>
 </html>
