@@ -44,11 +44,9 @@ $ node start
 
 - Answer a few questions 
 
-<p align="center">
-  <img src="http://imgur.com/3T2pFdh" width="350"/>
-</p>
+[Imgur](http://i.imgur.com/3T2pFdh.png)
+
 
 - The application will then choose your best match 
-<p align="center">
-  <img src="http://imgur.com/RjUHZ4G" width="350"/>
-</p>
+
+[Imgur](http://i.imgur.com/RjUHZ4G.png)
