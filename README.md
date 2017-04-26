@@ -44,9 +44,9 @@ $ node start
 
 - Answer a few questions 
 
-[Imgur](http://i.imgur.com/3T2pFdh.png)
+<img width="1210" alt="screen shot 2017-04-26 at 13 37 46" src="https://cloud.githubusercontent.com/assets/16736074/25456611/42cb9dfe-2a88-11e7-9cd6-15f9ecf42fa2.png">
 
 
 - The application will then choose your best match 
 
-[Imgur](http://i.imgur.com/RjUHZ4G.png)
+<img width="1071" alt="screen shot 2017-04-26 at 13 38 08" src="https://cloud.githubusercontent.com/assets/16736074/25456687/77b9b0b4-2a88-11e7-91c9-4494daa3ba66.png">
