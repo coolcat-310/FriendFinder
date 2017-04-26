@@ -20,15 +20,26 @@ $("#submit").click(function() {
     console.log(answers);
 
     $.post("api/new", answers, function(data) {
-        if(data == true){
-            alert("yay! you are officially booked!")
-        }
-        if(data == false) {
-            alert("Sorry, you are on the wait list")
+        if(data){
+            console.log(data);
+            $('#caption').text(data.name);
+            $('.imagepreview').attr('src', data.photo );
+            $('#imagemodal').modal('show');
+
         }
 
         $('#name').val("");
         $('#photo').val("");
+        $('#q1').val("");
+        $('#q2').val("");
+        $('#q3').val("");
+        $('#q4').val("");
+        $('#q5').val("");
+        $('#q6').val("");
+        $('#q7').val("");
+        $('#q8').val("");
+        $('#q9').val("");
+        $('#q10').val("");
     });
 
 
