@@ -45,7 +45,10 @@ $ node start
 - Answer a few questions 
 
 <p align="center">
-  <img src="your_relative_path_here" width="350"/>
-  <img src="your_relative_path_here_number_2_large_name" width="350"/>
+  <img src="http://imgur.com/3T2pFdh" width="350"/>
 </p>
 
+- The application will then choose your best match 
+<p align="center">
+  <img src="http://imgur.com/RjUHZ4G" width="350"/>
+</p>
