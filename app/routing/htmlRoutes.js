@@ -3,7 +3,9 @@ var path = require("path");
 
 
 module.exports = function(app){
-
+    /***
+     * A layout to all possible routes in the application
+     */
 
     app.get('/survey', function(req, res){
         res.sendFile(path.join(__dirname + '/../public/survey.html'));

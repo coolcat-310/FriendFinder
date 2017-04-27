@@ -7,9 +7,10 @@
 $("#submit").click(function() {
     /***
      * The event listener is called when the submit button is clicked on by the user.
-     *
+     * The post method sends an object (answers) to the server and the server returns an object (data)
+     * which is then displayed in a modal.
      */
-    console.log('I was clicked');
+
     var answers = {
         name: $('#name').val().trim(),
         photo: $('#photo').val().trim(),
@@ -17,7 +18,7 @@ $("#submit").click(function() {
             $('#q5').val().trim(),$('#q6').val().trim(),$('#q7').val().trim(),$('#q8').val().trim(),
             $('#q9').val().trim(),$('#q10').val().trim()]
     };
-    console.log(answers);
+
 
     $.post("api/new", answers, function(data) {
         if(data){
@@ -41,8 +42,5 @@ $("#submit").click(function() {
         $('#q9').val("");
         $('#q10').val("");
     });
-
-
-
 });
 
