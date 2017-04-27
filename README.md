@@ -6,7 +6,7 @@
 
 ## Live Link
 
-- coming soon
+- https://jn-friend-finder.herokuapp.com/
 
 ## Resources
 
